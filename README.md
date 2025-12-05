@@ -2,7 +2,7 @@
 
 > Teensy 4.1–based simulator for the **REAL CubeSat instrument**, enabling robust spacecraft integration testing without needing physical flight hardware.  
 
-## 🎯 Project Purpose
+## Project Purpose
 
 This project implements an **instrument simulator** that emulates the behavior and data flow of the **REAL CubeSat** instrument.  
 Running on a **Teensy 4.1 microcontroller**, it supports full packet-level communication with the satellite’s **On-Board Computer (OBC)** over UART, following CCSDS telemetry standards.
@@ -14,7 +14,7 @@ The simulator:
 - Emits periodic “1 PPS” status updates  
 - Allows system debugging and validation *without needing the flight instrument hardware*
 
-## 🧠 System Overview
+## System Overview
 
 - **Platform:** Teensy 4.1 (C++ / Arduino Core)
 - **Communication:** UART (Serial2)
@@ -22,7 +22,7 @@ The simulator:
 - **Error Checking:** CRC-CCITT16  
 - **Design Goal:** Mirror instrument state logic and communication timing of the actual payload
 
-## ⚙️ Core Features
+## Core Features
 
 | Feature | Description |
 |----------|-------------|
@@ -33,7 +33,7 @@ The simulator:
 | **State Machine Architecture** | FSM-based packet reception and handling (`getData()` loop) |
 
 
-## ✨ Acknowledgements
+## Acknowledgements
 
 - Developed at the **Space Science Engineering Lab** at Montana State University.
 
